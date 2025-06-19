@@ -1,0 +1,67 @@
+body{
+    background-color: rgba(19, 18, 18, 0.89);
+}
+
+.chatbox{
+    background-color: cadetblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 30%;
+}
+
+@media (max-width:1115px){
+    .chatbox{
+        width: 40%;
+    }
+}
+
+@media (max-width:780px){
+    .chatbox{
+        width: 80%;
+    }
+}
+
+.msg{
+    background-color: rgb(55, 88, 151);
+    padding:13px 10px;
+    border-radius: 10px;
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+h1,form{
+    text-align: center;
+}
+
+form button{
+    padding: 5px 10px;
+    outline: none;
+    font-size: 17px;
+    background-color: darkslategrey;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.editBtn{
+    background-color: rgb(31, 53, 179);
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.both{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.editBtn{
+    color: black;
+    display: flex;
+}
